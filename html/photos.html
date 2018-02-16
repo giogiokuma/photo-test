@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Photo Contest Application</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="./css/mystyles.css">
+  <!--[if lte IE 9]>
+<html class="ie" lang="en">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js cookie_used_true">
+<!--<![endif]-->
+</head>
+<body>
+<section class="hero is-primary is-large header-image">
+  <div class="hero-head">
+    <header class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a href="https://jomo-news.co.jp/" class="navbar-item"><img src="./images/logo.png"></a><div class="navbar-burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu navbar-end" id="navMenu">
+
+        <a href="https://jomo-news-co.jp/" class="navbar-item">
+          <i class="fa fa-play"></i>&nbsp;上毛新聞社
+        </a>
+      </div>
+    </header>
+  </div>
+</section>
+
+  <section role="main">
+    <article>
+      <h2>双方が考えありも</h2>
+      <p>彼らも場合もっともその使用界といったのの時に縛りつけませませ。すこぶるほかに沙汰界はもしこの相当なけれましだけでしてつけるありをは相違申すたまして、さらににも通じたですありなかっ。</p>
+      <p>ところがそれからごがたにし事は当然普通ともったば、その権力にはあるたとという自他でいうからいたます。</p>
+    </article>
+  </section>
+
+  <aside><h3>Aside</h3></aside>
+  <footer>
+      <h3>Footer</h3>
+  </footer>
+  
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+	
+		// Get all "navbar-burger" elements
+		var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+	
+		// Check if there are any navbar burgers
+		if ($navbarBurgers.length > 0) {
+	
+			// Add a click event on each of them
+			$navbarBurgers.forEach(function ($el) {
+				$el.addEventListener('click', function () {
+	
+					// Get the target from the "data-target" attribute
+					var target = $el.dataset.target;
+					var $target = document.getElementById(target);
+	
+					// Toggle the class on both the "navbar-burger" and the "navbar-menu"
+					$el.classList.toggle('is-active');
+					$target.classList.toggle('is-active');
+	
+				});
+			});
+		}
+	
+	});
+
+  window.sr = ScrollReveal(); 
+sr.reveal('.section'); 
+
+
+</script>
+</body>
+</html>
