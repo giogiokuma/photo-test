@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Photo Contest Application</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./css/mystyles.css">
+
   <!--[if lte IE 9]>
 <html class="ie" lang="en">
 <![endif]-->
@@ -15,7 +17,7 @@
 <!--<![endif]-->
 </head>
 <body>
-<section class="hero is-primary is-large header-image">
+<section class="hero is-primary is-medium header-image">
   <div class="hero-head">
     <header class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -33,14 +35,45 @@
       </div>
     </header>
   </div>
+
   <div class="hero-body">
+  <div class='carousel carousel-animated carousel-animate-slide'>
+    <div class='carousel-container'>
+      <div class='carousel-item has-background is-active'>
+        <img class="is-background" src="images/0062.png" alt=""  />
+        <!--<div class="title"></div>-->
+      </div>
+      <div class='carousel-item has-background'>
+        <img class="is-background" src="images/0063.jpg" alt=""  />
+        <!--<div class="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La Song Box</a></div>-->
+      </div>
+      <div class='carousel-item has-background'>
+        <img class="is-background" src="images/0064.jpg" alt=""/>
+        <!--<div class="title">Sushi time</div>-->
+      </div>
+      <div class='carousel-item has-background'>
+        <img class="is-background" src="imaegs/0065.jpg" alt=""  />
+        <!--<div class="title">Life</div>-->
+      </div>
+    </div>
+    <div class="carousel-navigation is-overlay">
+      <div class="carousel-nav-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </div>
+      <div class="carousel-nav-right">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">
         テスト
       </h1>
       <h2>This is the test version of app</h2>
     </div>
-  </div>
+  </div> -->
   <div class="hero-foot">
     <nav class="tabs is-boxed is-desktop">
       <div class="container">
@@ -54,14 +87,22 @@
   </div>
 </section>
 
-  <section role="main">
+<section class="section">
+  <div class="container">
+  <div class="panel">
+    <h3 class="title is-3">今月の入賞作品</h3>
+    <p class="subtitle is-6">上毛写真連盟　新会員募集中</p>
+  </div>
+  </div>
+</section>
+  <!-- <section role="main">
     <article>
       <h2>双方が考えありも</h2>
       <p>彼らも場合もっともその使用界といったのの時に縛りつけませませ。すこぶるほかに沙汰界はもしこの相当なけれましだけでしてつけるありをは相違申すたまして、さらににも通じたですありなかっ。</p>
       <p>ところがそれからごがたにし事は当然普通ともったば、その権力にはあるたとという自他でいうからいたます。</p>
     </article>
   </section>
-  <section>
+  <section> -->
 
   </section>
   <aside><h3>Aside</h3></aside>
@@ -103,5 +144,6 @@ sr.reveal('.section');
 
 
 </script>
+<script type="text/javascript" src="./js/bulma-carousel.min.js"></script>
 </body>
 </html>
