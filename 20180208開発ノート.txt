@@ -1,5 +1,43 @@
+20180220
+desktop 開発
+
+**Express インストール**
+express photo-test 
+
+**Express node**
+$PORT=8000 npm start
+http://localhost:3000/でスタート
+
+echo "node_modules/" > .gitignore
+git init
+git add .
+git commit -am "first commit"
+
+
+
+
+----------------------------------------------
 20180216
-github error 
+github error  解決
+パーミッションエラー
+-----
+**https://stackoverflow.com/questions/14127255/remove-git-index-lock-permission-denied**
+
+I needed to change the group of my .git folder and its contents:
+sudo chown -R : .git
+
+needed to change the permission of this folder:
+
+sudo chmod -R 775 .git
+
+----------------------------------------------
+
+**git キャッシュを削除で　untracked files で修正**
+
+git rm . -r --cached
+git add .
+git commit -m "fixed untracked files"
+
 
 -------------------
 

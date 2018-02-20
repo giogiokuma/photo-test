@@ -22,6 +22,7 @@ var api = require('instagram-node').instagram();
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var photos = require('./routes/photos'); 
+var helmet = require('helmet'); 
 
 var app = express();
 app.use(helmet());
